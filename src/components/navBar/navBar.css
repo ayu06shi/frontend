@@ -1,0 +1,21 @@
+.nav-underline {
+  padding: 15px;
+  --bs-nav-underline-gap: 1rem;
+  --bs-nav-underline-border-width: 0.125rem;
+  --bs-nav-underline-link-active-color: white;
+  gap: var(--bs-nav-underline-gap);
+}
+.nav {
+  justify-content: space-evenly;
+  background-color: rgb(23, 32, 37);
+  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: rgb(255, 255, 255);
+  --bs-nav-link-hover-color: rgb(216, 172, 172);
+  --bs-nav-link-disabled-color: rgb(212, 172, 172);
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  list-style: none;
+}

@@ -1,0 +1,28 @@
+body {
+    font-family: Monaco, monospace;
+}
+
+#command-window {
+    background-color: #000;
+    height: 50vh;
+    width: 50vh;
+    color: #fff;
+    padding: 10px;
+    justify-content: right;
+}
+
+#output {
+    height: 50vh;
+    width: 50vh;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+#input66[type="text"] {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    height: 50vh;
+    width: 50vh;
+    outline: none;
+}
